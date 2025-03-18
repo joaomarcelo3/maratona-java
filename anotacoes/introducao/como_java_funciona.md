@@ -18,7 +18,7 @@
 * **JDK (Java Development Kit)**: O kit de desenvolvimento completo para criar aplicações Java.
 * **JRE (Java Runtime Environment)**: O ambiente de execução para rodar aplicações Java.
 
-## Notas Adicionais
+### Conclusão
 
 * Java é uma linguagem compilada e interpretada.
 * A retrocompatibilidade é uma das grandes vantagens do Java.

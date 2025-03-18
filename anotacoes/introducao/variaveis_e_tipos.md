@@ -264,6 +264,6 @@ System.out.println(s);  // Saída: Olá Mundo
 ```
 Neste exemplo, uma nova String foi criada com o valor "Olá Mundo", e a String original não foi alterada.
 
-### Observação
+### Conclusão
 - Casting permite manipular tipos de dados de forma controlada, garantindo que as conversões sejam feitas corretamente.
 - Strings são objetos especiais em Java, que fornecem uma série de métodos úteis para manipulação de texto.

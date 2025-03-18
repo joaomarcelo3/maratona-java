@@ -4,11 +4,13 @@ Este repositório contém minhas anotações e exercícios do curso **Maratona J
 
 📁 `anotacoes/` → Anotações. 
 1. [Como Java Funciona](anotacoes/introducao/como_java_funciona.md)
-2. [Variáveis e Tipos](anotacoes/introducao/variaveis_e_tipos.md)
+2. [Variáveis/Tipos Primitivos/String](anotacoes/introducao/variaveis_e_tipos.md)
+3. [Operadores](anotacoes/introducao/operadores.md/) 
 
-📁 `src/` → Códigos separado por módulos. 
-1. [Aula 01 - Hello World](src/introducao/aula01/HelloWorld.java/)
-2. [Aula 02 - Variáveis e Tipos Primitivos](src/introducao/aula02/TiposPrimitivos.java/)
+📁 `src/` → Código prático separado por módulos. 
+1. [Hello World](src/introducao/aula01/HelloWorld.java/)
+2. [Variáveis e Tipos Primitivos](src/introducao/aula02/TiposPrimitivos.java/)
+3. [Operadores](src/introducao/aula03/Operadores.java)
 
 ## 🚧 Em progresso  
 ✅ Introdução ao Java  
