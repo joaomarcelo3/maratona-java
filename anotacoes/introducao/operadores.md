@@ -130,7 +130,7 @@ if (Integer.parseInt(str) == numero) {
 - O `método Integer.parseInt(str)` converte a `String` em um valor `int`, permitindo a comparação com a variável `numero`, que também é do tipo `int`.
 - O operador `==` pode ser usado para comparar os valores inteiros resultantes.
 
-### 2.3 Erro ao Comparar Diretamente `String` e `int`
+## 2.3 Erro ao Comparar Diretamente `String` e `int`
 Se você tentar fazer a comparação diretamente sem conversão, como mostrado abaixo, ocorrerá um erro de compilação:
 
 ```java
@@ -144,7 +144,7 @@ if (str == numero) {  // Erro de compilação
 
 Isso não funcionará, pois `str` é um objeto (do tipo `String`), enquanto numero é um valor primitivo (`int`).
 
-### 2.4 Comparando Strings
+## 2.4 Comparando Strings
 Para comparar o conteúdo de duas `Strings` em Java, você deve usar o método `.equals()` ou `.compareTo()`, e não o operador `==`, que compara referências, não os conteúdos das Strings.
 
 Exemplo de Comparação de Strings
@@ -241,7 +241,7 @@ O operador lógico OR (||) é utilizado para combinar duas ou mais expressões b
 É útil em diversas situações de controle de fluxo, como verificações de múltiplas condições em um if.
 
 
-## 4. Operadores de Atribuição
+# 4. Operadores de Atribuição
 
 Os operadores de atribuição são usados para armazenar valores em variáveis.
 
@@ -262,6 +262,58 @@ numero += 5;  // Agora numero é 15
 numero *= 2;  // Agora numero é 30
 numero /= 3;  // Agora numero é 10
 ```
+
+## 4.1 Operadores de Incremento e Decremento (`++` e `--`)
+
+No mundo dos **operadores atribuídos**, os operadores `++` e `--` são utilizados para **incrementar** ou **decrementar** valores numéricos de forma concisa. Eles são frequentemente usados em **laços de repetição** e manipulação de variáveis numéricas.
+
+## **Incremento (`++`)**
+O operador `++` **adiciona 1** ao valor da variável.
+
+```java
+int contador = 5;
+contador++; // Agora contador vale 6
+Decremento (--)
+O operador -- subtrai 1 do valor da variável.
+```
+
+```java
+int contador = 5;
+contador--; // Agora contador vale 4
+Pré-incremento (++contador) e Pós-incremento (contador++)
+Esses operadores podem ser usados antes (++contador) ou depois (contador++) da variável, e isso influencia o momento da atualização do valor.
+```
+
+## Pós-incremento (`contador++`)
+O pós-incremento retorna o valor atual da variável antes de incrementá-la.
+
+```java
+int x = 5;
+int y = x++; // Primeiro y recebe 5, depois x é incrementado para 6
+System.out.println("x: " + x); // Saída: x: 6
+System.out.println("y: " + y); // Saída: y: 5
+Pré-incremento (++contador)
+```
+
+O pré-incremento incrementa a variável antes de retorná-la.
+
+```java
+int x = 5;
+int y = ++x; // Primeiro x é incrementado para 6, depois y recebe 6
+System.out.println("x: " + x); // Saída: x: 6
+System.out.println("y: " + y); // Saída: y: 6
+```
+O mesmo conceito se aplica ao pré-decremento (`--contador`) e ao pós-decremento (`contador--`), que seguem a mesma lógica, mas diminuindo o valor em 1.
+
+### Quando Usar Cada Um?
+Pré-Incremento (`++contador`)
+
+Quando você precisa incrementar primeiro e depois usar o valor atualizado.
+Em loops e operações matemáticas onde a atualização imediata do valor é importante.
+Pós-Incremento (`contador++`)
+
+Quando você precisa usar o valor atual primeiro e só depois incrementá-lo.
+Em expressões onde o valor anterior ainda precisa ser processado antes do incremento.
 
 ### Conclusão
 Os operadores são fundamentais para a lógica de qualquer programa Java. Cada categoria tem sua utilidade:
