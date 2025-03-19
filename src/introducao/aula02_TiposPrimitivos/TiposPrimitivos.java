@@ -1,5 +1,4 @@
-package introducao.aula02;
-
+package introducao.aula02_TiposPrimitivos;
 /*
  * Prática
  * 

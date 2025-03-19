@@ -1,6 +1,6 @@
-package introducao.aula04;
+package introducao.aula04_EstruturasCondicionais;
 
-public class EstruturasCondicionais {
+public class IfElse{
     public static void main(String[] args) {
         int idade = 14;
         boolean isAutorizadoComprarBebida = idade >=18;
@@ -27,5 +27,15 @@ public class EstruturasCondicionais {
         } else {
             System.out.println("Categoria adulto");
         }
+
+        //se meu salario > 5000 doar 500 para devDojo
+        //se nao, ainda nao tenho condições, mas terei
+
+        double salario = 3000;
+
+        String mensagem = (salario >= 5000) ? "doar 500 para devDojo" : "ainda não tenho condições, mas terei!";
+
+        System.out.println(mensagem);
+
     }
 }
