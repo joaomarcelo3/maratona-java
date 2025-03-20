@@ -1,4 +1,4 @@
-# Tipos Primitivos em Java  
+# Tipos Primitivos 
 
 ## O que são tipos primitivos ?  
 Tipos primitivos são os tipos de dados mais básicos do Java, usados para armazenar valores simples diretamente na memória, sem a necessidade de um objeto.  

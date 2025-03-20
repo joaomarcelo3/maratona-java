@@ -12,7 +12,8 @@ Utilizando o guia de estudos do `@Devmagro` [Guia no Google Docs](https://docs.g
 3. [Operadores](anotacoes/introducao/operadores.md/)
 4. [Estruturas Condicionais](anotacoes/introducao/estruturas_condicionais.md)
 5. [Estrutura de Repetiçao](anotacoes/introducao/estrutura_de_repeticao.md)
-
+6. [Arrays](anotacoes/introducao/Arrays.md)
+  
 📁 `src/` → Código prático separado por módulos. 
 
 ## 🚧 Em progresso  
@@ -20,5 +21,7 @@ Utilizando o guia de estudos do `@Devmagro` [Guia no Google Docs](https://docs.g
 ✅ Variáveis e Tipos Primitivos  
 ✅ Operadores  
 ✅ Estruturas Condicionais  
-🔜 Estruturas de Repetição   
+✅ Estruturas de Repetição  
+✅ Arrays  
+🔜 Orientação a Objetos  
 ...

@@ -1,4 +1,4 @@
-# Operadores em Java
+# Operadores
 
 Em Java, os operadores são símbolos especiais usados para realizar operações sobre variáveis e valores. Eles são essenciais para a construção de expressões e a lógica dos programas.
 
