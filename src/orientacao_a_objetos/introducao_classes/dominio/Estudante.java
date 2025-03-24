@@ -1,4 +1,4 @@
-package orientacao_a_objetos.dominio;
+package orientacao_a_objetos.introducao_classes.dominio;
 
 public class Estudante {
     

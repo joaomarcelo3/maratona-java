@@ -1,6 +1,6 @@
-package orientacao_a_objetos.test;
+package orientacao_a_objetos.introducao_classes.test;
 
-import orientacao_a_objetos.dominio.Carro;
+import orientacao_a_objetos.introducao_classes.dominio.Carro;
 
 public class CarroTest01 {
     public static void main(String[] args) {

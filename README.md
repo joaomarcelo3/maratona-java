@@ -8,11 +8,11 @@ Utilizando o guia de estudos do `@Devmagro` [Guia no Google Docs](https://docs.g
 
 📁 `anotacoes/` → Anotações. 
 1. [Como Java Funciona](anotacoes/introducao/como_java_funciona/como_java_funciona.md)
-2. [Variáveis/Tipos Primitivos/String](anotacoes/introducao/variaveis_e_tipos.md)
-3. [Operadores](anotacoes/introducao/operadores.md/)
-4. [Estruturas Condicionais](anotacoes/introducao/estruturas_condicionais.md)
-5. [Estrutura de Repetiçao](anotacoes/introducao/estrutura_de_repeticao.md)
-6. [Arrays](anotacoes/introducao/Arrays.md)
+2. [Fundamentos de Lógica](/anotacoes/sub_menus/sub_menu_fundamentos.md)
+3. [Orientação a Objetos](/anotacoes/sub_menus/sub_menu_oo.md)
+
+📁 `src/desafios/` → Desafios.   
+- [Desafios](anotacoes/desafios.md)
   
 📁 `src/` → Código prático separado por módulos. 
 

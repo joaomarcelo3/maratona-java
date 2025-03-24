@@ -1,6 +1,6 @@
-package orientacao_a_objetos.test;
+package orientacao_a_objetos.introducao_classes.test;
 
-import orientacao_a_objetos.dominio.Estudante;
+import orientacao_a_objetos.introducao_classes.dominio.Estudante;
 
 public class EstudanteTest01 {
     public static void main(String[] args) {

@@ -27,3 +27,5 @@
 * O bytecode é executado pela JVM
 
 ![alt text](image.png)
+
+🔗 [Voltar ao Menu Principal](/README.md)
