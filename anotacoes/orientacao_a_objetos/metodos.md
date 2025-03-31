@@ -1,108 +1,91 @@
-# Métodos em Java
+# Métodos
 
-## O que são métodos em Java?
+## O que são métodos?
 
-Em Java, **métodos** são blocos de código que realizam uma ação específica. Eles são usados para organizar o programa em partes menores e reutilizáveis.
+Métodos são blocos de código que realizam uma ação específica. Eles ajudam a organizar o código, reutilizar lógica e implementar comportamentos nas classes.
 
-### Estrutura de um método em Java
+### Estrutura de um método:
 
 ```java
 modificadorDeAcesso tipoDeRetorno nomeDoMetodo(parâmetros) {
-    // Corpo do método: aqui vai o código
-    return valor; // (se não for void)
-}
-```
-
-### Exemplo prático:
-
-```java
-public class Calculadora {
-    // Método que soma dois números
-    public int somar(int a, int b) {
-        return a + b; // Retorna a soma
-    }
-}
-
-public class CalculadoraTeste {
-    public static void main(String[] args) {
-        Calculadora calc = new Calculadora();
-
-        int resultado = calc.somar(10, 20);
-        System.out.println("Resultado: " + resultado); // Saída: Resultado: 30
-    }
+    // corpo do método
+    return valor; // se o tipo de retorno não for void
 }
 ```
 
 ---
 
-## Conceitos importantes sobre métodos
-
-### 1. **Tipo de retorno**
-
-Indica o tipo de dado que o método devolve. Se o método não retornar nada, usamos `void`.
-
-**Exemplo de método com retorno:**
+## Exemplos de métodos
 
 ```java
-public int multiplicar(int a, int b) {
-    return a * b; // Retorna um inteiro
+public class Calculadora {
+    public int somar(int a, int b) {
+        return a + b;
+    }
 }
 ```
 
-**Exemplo de método sem retorno (**\`\`**):**
+```java
+Calculadora calc = new Calculadora();
+int resultado = calc.somar(10, 5);
+System.out.println("Resultado: " + resultado);
+```
+
+---
+
+## Tipos de Métodos
+
+| Tipo                          | Exemplo                               |
+|-------------------------------|----------------------------------------|
+| Com retorno e com parâmetros | `int somar(int a, int b)`              |
+| Com retorno e sem parâmetros | `String saudacao()`                    |
+| Sem retorno e com parâmetros | `void exibirMensagem(String nome)`    |
+| Sem retorno e sem parâmetros | `void mostrarMensagem()`              |
+
+---
+
+## Conceitos importantes
+
+### Tipo de retorno
+- Define o tipo de dado que o método retorna.
+- Se não retorna nada, usa-se `void`.
 
 ```java
-public void exibirMensagem() {
+public void mensagem() {
     System.out.println("Olá, mundo!");
 }
 ```
 
-### 2. **Parâmetros de entrada**
-
-São valores que passamos para o método executar sua lógica.
-
-**Exemplo com dois parâmetros:**
+###  Parâmetros
+- São valores que o método precisa para executar.
 
 ```java
-public int somar(int a, int b) {
-    return a + b;
+public void imprimirNome(String nome) {
+    System.out.println("Olá, " + nome);
 }
 ```
 
-Se um método não precisa de parâmetros, basta deixar os parênteses vazios:
+### Chamada de métodos
 
 ```java
-public void mensagemPadrao() {
-    System.out.println("Bem-vindo!");
-}
-```
-
-### 3. **Chamando métodos**
-
-Para usar um método, criamos um objeto e usamos a notacão de ponto (`.`).
-
-```java
-Calculadora calc = new Calculadora();
-calc.somar(5, 10);
+objeto.nomeDoMetodo(parâmetros);
 ```
 
 ---
 
-## Diferença entre atributos e métodos
+## Diferença entre Atributos e Métodos
 
-| **Atributo**                  | **Método**                            |
-| ----------------------------- | ------------------------------------- |
-| Representa um dado (variável) | Representa uma ação ou comportamento  |
-| Não usa parênteses            | Usa parênteses (mesmo sem parâmetros) |
-| Pode ser lido ou modificado   | Executa uma tarefa ou calcula algo    |
-
-**Exemplo:**
+| Atributo                     | Método                                |
+|-----------------------------|----------------------------------------|
+| Representa um dado          | Representa um comportamento            |
+| Não usa parênteses          | Usa parênteses                         |
+| Pode ser acessado diretamente | Executa uma ação                      |
 
 ```java
 public class Pessoa {
-    String nome; // Atributo
+    String nome;
 
-    public void dizerOla() { // Método
+    public void dizerOla() {
         System.out.println("Olá, " + nome);
     }
 }
@@ -110,18 +93,44 @@ public class Pessoa {
 
 ---
 
-## Exercício prático
+###  O que é `static`?
 
-Crie uma classe `CalculadoraAvancada` com os seguintes métodos:
-
-1. `public int subtrair(int a, int b)` - Retorna a diferença entre dois números.
-2. `public void exibirMensagem()` - Imprime "Calculadora em funcionamento".
-
-Teste esses métodos em uma classe `CalculadoraAvancadaTeste` no `main`.
-
-- [Exercício Prático](introducao)
-
+O modificador `static` indica que um **atributo ou método pertence à classe**, e **não a uma instância** (objeto).
 
 ---
 
+### Atributos estáticos
 
+- Compartilhados entre todas as instâncias da classe.
+- São acessados diretamente pela classe.
+
+```java
+public class Carro {
+    public static String marca = "Toyota";
+    public String modelo;
+}
+```
+
+```java
+System.out.println(Carro.marca); // Acessa sem instanciar um objeto
+```
+
+---
+
+### Métodos estáticos
+
+- Também pertencem à classe.
+- Podem ser chamados sem criar objetos.
+- **Não podem acessar atributos ou métodos de instância diretamente.**
+
+```java
+public class Util {
+    public static void imprimirMensagem(String msg) {
+        System.out.println(msg);
+    }
+}
+```
+
+```java
+Util.imprimirMensagem("Olá!"); // Chamada sem instanciar
+```
