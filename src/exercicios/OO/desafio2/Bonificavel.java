@@ -1,4 +1,4 @@
-package desafios.OO.desafio2;
+package exercicios.OO.desafio2;
 
 public interface Bonificavel {
     

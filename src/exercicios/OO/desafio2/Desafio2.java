@@ -1,4 +1,4 @@
-package desafios.OO.desafio2;
+package exercicios.OO.desafio2;
 
 /* Sistema de Funcionários
 Crie um sistema que gerencie funcionários de uma empresa.

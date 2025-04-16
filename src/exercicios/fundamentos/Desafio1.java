@@ -1,4 +1,4 @@
-package desafios.fundamentos;
+package exercicios.fundamentos;
 
 /*
  * 1. Crie um programa que:

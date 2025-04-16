@@ -1,4 +1,4 @@
-package desafios.OO.desafio4;
+package exercicios.OO.desafio4;
 
 public class Funcionario {
     
@@ -33,6 +33,7 @@ public class Funcionario {
         double media = 0;
         for (double salario : salarios) {
             media += salario;
+            
         }
         media /= salarios.length;
         System.out.printf("\nMédia: %.2f ",media);

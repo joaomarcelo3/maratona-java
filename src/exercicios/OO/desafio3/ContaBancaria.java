@@ -1,4 +1,4 @@
-package desafios.OO.desafio3;
+package exercicios.OO.desafio3;
 
 public class ContaBancaria {
 

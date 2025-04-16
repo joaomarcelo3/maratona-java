@@ -1,4 +1,4 @@
-package desafios.OO.desafio2;
+package exercicios.OO.desafio2;
 
 public class Main {
     public static void main(String[] args) {
