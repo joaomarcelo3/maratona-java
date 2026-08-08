@@ -1,8 +1,5 @@
 package exercicios.OO.Desafio6;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Ouro implements Valioso{
     private double valor;
 

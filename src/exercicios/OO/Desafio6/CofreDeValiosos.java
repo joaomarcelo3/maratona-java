@@ -1,6 +1,14 @@
 package exercicios.OO.Desafio6;
 
-public class CofreDeValiosos{
+public class CofreDeValiosos< T extends Valioso> extends  Cofre<T>{
+
+    public double valorTotal(){
+        double total = 0;
+        for (T item : listar()) {
+            total +=  item.getValor();
+        }
+        return total;
+    }
 
 
 

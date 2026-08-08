@@ -17,8 +17,8 @@ public class Cofre <T>{
     public void retirar(int index){ itens.remove(index);
     }
 
-    public void listar(){
-        System.out.println("Itens no cofre = " + itens);
+    public List<T> listar(){
+        return itens;
     }
 
 
