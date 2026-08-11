@@ -14,5 +14,6 @@ public class Main {
     valiosos.guardar(new Joia(25000));
         System.out.println(valiosos.listar());
         System.out.println(valiosos.valorTotal());
+        
     }
 }
