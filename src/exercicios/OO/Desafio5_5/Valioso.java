@@ -1,4 +1,4 @@
-package exercicios.OO.Desafio6;
+package exercicios.OO.Desafio5_5;
 
 public interface Valioso {
 

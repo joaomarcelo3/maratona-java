@@ -1,10 +1,9 @@
-package exercicios.OO.Desafio6;
+package exercicios.OO.Desafio5_5;
 
-public class Joia implements Valioso{
-
+public class Ouro implements Valioso{
     private double valor;
 
-    public Joia(double valor) {
+    public Ouro(double valor) {
         this.valor = valor;
     }
 
@@ -15,6 +14,6 @@ public class Joia implements Valioso{
 
     @Override
     public String toString() {
-        return "Joia " + "Valor: R$"+ getValor();
+        return "Ouro " + "Valor: R$"+ getValor();
     }
 }
