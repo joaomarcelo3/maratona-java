@@ -1,4 +1,4 @@
-package orientacao_a_objetos.Queue;
+package orientacao_a_objetos.introducao_Queue;
 
 import java.util.*;
 
