@@ -12,7 +12,7 @@ public class Main {
 
         List<String> nomes = List.of("joão", "maria", "pedro", "ana");
         List<String> convertidos = nomes.stream()
-                .map(nome -> nome.toUpperCase())
+                .map(String::toUpperCase)
                 .collect(Collectors.toList());
 
         System.out.println(convertidos);
