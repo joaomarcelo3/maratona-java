@@ -13,7 +13,7 @@ public class Main {
 
         List<Integer> numeros = List.of(4, 8, 15, 16, 23, 42);
         IntSummaryStatistics stats = numeros.stream()
-                .mapToInt(numero -> numero.intValue())
+                .mapToInt(Integer::intValue)
                 .summaryStatistics();
 
         System.out.println("Soma: " + stats.getSum());
