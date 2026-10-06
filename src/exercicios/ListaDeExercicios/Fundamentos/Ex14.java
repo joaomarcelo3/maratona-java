@@ -2,7 +2,7 @@ package exercicios.fundamentos;
 
 import java.util.Scanner;
 
-public class Desafio4 {
+public class Ex14 {
     public static void main(String[] args) {
 
         /*Faça um algoritmo que solicite ao usuário uma palavra e mostre a palavra original e a palavra

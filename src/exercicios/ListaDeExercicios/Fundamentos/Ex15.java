@@ -11,7 +11,7 @@ package exercicios.fundamentos;
 ---
  */
 
-public class Desafio1 {
+public class Ex15 {
     public static void main(String[] args) {
         
         double[] numeros = {4,8,9,3,20};

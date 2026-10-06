@@ -2,7 +2,7 @@ package exercicios.fundamentos;
 
 import java.util.Scanner;
 
-public class Desafio2 {
+public class Ex16 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
